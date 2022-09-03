@@ -16,7 +16,7 @@ class ProjectApplicationTests {
 	void contextLoads() {
 		logger.info("test logger");
 		logger.info("test logger 2");
-		logger.error("error but no error");
+		logger.error("error but no error1");
 	}
 
 }
