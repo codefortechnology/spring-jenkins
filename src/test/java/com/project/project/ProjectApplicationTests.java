@@ -15,6 +15,7 @@ class ProjectApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("test logger");
+		logger.info("test logger 2");
 	}
 
 }
