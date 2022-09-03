@@ -11,11 +11,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 @RunWith(SpringRunner.class)
 class ProjectApplicationTests {
-//	Logger logger = LoggerFactory.getLogger(Student.class);
+	Logger logger = LoggerFactory.getLogger(Student.class);
 	@Test
 	void contextLoads() {
 		logger.info("test logger");
 		logger.info("test logger 2");
+		logger.error("error but no error");
 	}
 
 }
